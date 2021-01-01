@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@400;500;600&display=swap');
+
+* {
+  margin: 0%;
+  padding: 0%;
+}
+
+body {
+    font-family: 'Dosis', sans-serif;
+    margin: 0%;
+    padding: 0%;
+}
+
+header {
+    background-image: url("https://images.unsplash.com/photo-1578604665675-9aee692f6ddc?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1103&q=80");
+    background-size: cover;
+    height: 720px;
+    font-size: 4.5em;
+    text-align: center;
+    color: white;
+}
+
+#whole {
+  background-image: url("https://wallpaperboat.com/wp-content/uploads/2020/06/26/49250/gradient-02.jpg");
+  background-size: cover;
+}
+
+.menudropdown {
+  width: 79%;
+  height: 100px;
+  margin: 0px auto;
+  cursor: pointer;
+} 
+
+a {
+  font-size: 22px;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+.menudropdown {
+  position: fixed;  
+  margin-left: 160px;
+  margin-top: -6px;
+}
+
+.menudropdown ul {
+ padding: 0px;
+}
+
+.menudropdown ul li {
+  float: right;
+  background-color: black;
+  color: white;
+  width: 200px;
+  height: 50px;
+  font-size: 21px;
+  text-align: center;
+  line-height: 50px;
+  list-style: none;
+}
+
+.menudropdown ul li ul {
+  display: none;
+}
+
+.menudropdown ul li:hover {
+  background-color: dodgerblue;
+  opacity: 0.9;
+  cursor: pointer;
+}
+
+.menudropdown ul li:hover>ul {
+  display: block;
+}
+
+  p {
+    margin-left: 100px;
+    font-size: 25px;
+    font: bold;
+    color: black;
+    margin-top: 30px;
+    width: 600px;
+    text-align: left;
+    border: 2px solid black;
+    border-radius: 20px;
+    background: yellow;
+    padding: 10px;
+  }
+
+  #scroll {
+    width: 300px;
+    position: relative;
+    animation: mymove 3s infinite;
+    animation-play-state: running;
+}
+
+@keyframes mymove {
+    from {
+        top: 5px;
+    }
+
+    to {
+        top: 100px;
+    }
+} 
+
+  h1 {
+    padding: 100px;
+}
+
+  h2 {
+    color: white;
+    text-align: center;
+    font-size: 30px;
+  }
+
+.pollution {
+  width: 470px;
+  height: 420px;
+  margin-left: 800px;
+  margin-top: -460px;
+  border-radius: 20px;
+  border: 5px solid black;
+}
+
+#sub-container p {
+    margin-left: 700px;
+    font-size: 25px;
+    color: lavender;
+    margin-top: 30px;
+    width: 600px;
+    text-align: left;
+    border: 2px solid black;
+    border-radius: 20px;
+    background: orange;
+    padding: 10px;
+}
+
+#sub-container img {
+  width: 470px;
+  height: 420px;
+  margin-left: 100px;
+  margin-top: -350px;
+  border-radius: 20px;
+  border: 5px solid black;
+}
+
+#highlight {
+	background-image: linear-gradient(deeppink,  mediumslateblue);
+	background-repeat: no-repeat;
+  background-position: 0% 100%;
+  padding: 10px;
+	background-size: 100% 2px;
+	transition: background-size .5s, background-position .3s ease-in .5s;
+}
+
+#highlight:hover {
+	background-size: 100% 100%;
+	background-position: 0% 0%;
+	transition: background-position .5s, background-size .3s ease-in .5s;
+}
+

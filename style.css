@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@400;500;600&display=swap');
+ * {
+margin: 0px;
+padding: 0px;
+} 
+
+body {
+   background-image: url("https://images.unsplash.com/photo-1570007889183-26e1ca43a6a9?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1052&q=80"); 
+   height: 10vh;
+   font-family: 'Dosis', sans-serif;
+   background-size: cover;
+}
+
+header h1 {
+  font-size: 7em;
+  max-height: 500px;
+  text-align: center;
+  color: black;
+}
+
+h1 {
+  margin-top: 300px;
+  margin-left: 20px;
+}
+
+header h2 {
+  font-size: 5em;
+  text-align: center;
+  margin-left: 20px;
+}
+
+ .menudropdown {
+  width: 79%;
+  height: 100px;
+  margin: 0px auto;
+} 
+
+a {
+  font-size: 22px;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+.menudropdown {
+  position: fixed;  
+  margin-left: 160px;
+  margin-top: -300px;
+}
+
+.menudropdown ul {
+ padding: 0px;
+}
+
+.menudropdown ul li {
+  float: right;
+  background-color: black;
+  color: white;
+  width: 200px;
+  height: 50px;
+  font-size: 21px;
+  text-align: center;
+  line-height: 50px;
+  list-style: none;
+}
+
+.menudropdown ul li ul {
+  display: none;
+}
+
+.menudropdown ul li:hover>ul {
+  display: block;
+}
+
+.menudropdown ul li:hover {
+  background-color: dodgerblue;
+  opacity: 0.9;
+}
+
+ 

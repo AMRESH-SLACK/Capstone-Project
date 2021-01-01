@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Righteous', cursive;
+}
+
+.flex-centered {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.background {
+    background-image: url("https://i.pinimg.com/originals/45/0d/25/450d258a4fa06e6175b91581d3c7d13b.jpg");
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+}
+
+#game-buttons {
+    flex-direction: column;
+}
+
+.button {
+    border-radius: 4px;
+    cursor: pointer;
+    width: 130px;
+    padding: 10px 15px;
+    text-align: center;
+    margin: 10px auto;
+}
+
+#instructions {
+    flex-direction: column;
+    background-color: #bb6bd9;
+    border-radius: 10px;
+    max-width: 450px;
+    text-align: center;
+    margin: 0 10px;
+    display: none;
+    color: white;
+}
+
+#instructions * {
+    margin: 20px;
+}
+
+.instruction-button {
+    background-color: #FFDC4B;
+    color: black;
+}
+
+#play-now {
+    background-color: darkorange;
+    color: black;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+#name-image {
+    width: 300px;
+    height: 300px;
+    height: auto;
+}

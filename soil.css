@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@400;500;600&display=swap');
+
+* {
+  margin: 0%;
+  padding: 0%;
+}
+
+body {
+    font-family: 'Dosis', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+h1 {
+  padding: 100px;
+}
+
+h3 {
+  font-size: 25px;
+  text-align: center;
+}
+
+header {
+    background-image: url("https://wallpapercave.com/wp/wp2802927.jpg");
+    background-size: cover;
+    height: 720px;
+    font-size: 4.5em;
+    text-align: center;
+    color: white;
+}
+
+.menudropdown {
+  width: 79%;
+  height: 100px;
+  margin: 0px auto;
+  cursor: pointer;
+} 
+
+a {
+  font-size: 22px;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+.menudropdown {
+  position: fixed;  
+  margin-left: 160px;
+  margin-top: -6px;
+}
+
+.menudropdown ul {
+ padding: 0px;
+}
+
+.menudropdown ul li {
+  float: right;
+  background-color: black;
+  color: white;
+  width: 200px;
+  height: 50px;
+  font-size: 21px;
+  text-align: center;
+  line-height: 50px;
+  list-style: none;
+  /* opacity: 0.8; */
+}
+
+.menudropdown ul li ul {
+  display: none;
+}
+
+.menudropdown ul li:hover {
+  background-color: dodgerblue;
+  opacity: 0.9;
+  cursor: pointer;
+}
+
+.menudropdown ul li:hover>ul {
+  display: block;
+}
+
+  #scroll {
+    margin-top: -60px;
+    width: 300px;
+    position: relative;
+    animation: mymove 3s infinite;
+    animation-play-state: running;
+}
+
+@keyframes mymove {
+    from {
+        top: 5px;
+    }
+
+    to {
+        top: 100px;
+    }
+}
+
+#pollution {
+  background-image: url("https://miro.medium.com/max/3002/1*dP81IJq-tGFxy1rIK3RYsg.png");
+  background-size: cover;
+}
+
+.image {
+    margin-left: 600px;
+    height: 800px;
+    width: 700px;
+    margin-top: -840px; 
+    border-radius: 20px;
+}
+
+.first {
+  border-radius: 10px;
+  padding: 10px;
+  width: 450px;
+  display: flex;
+  margin-left: 50px;
+  font-size: 25px;
+}
+
+.second {
+  border-radius: 10px;
+  padding: 10px;
+  width: 450px;
+  display: flex;
+  margin-left: 50px;
+  font-size: 25px;
+}
+
+.third {
+  border-radius: 10px;
+  padding: 10px;
+  width: 450px;
+  display: flex;
+  margin-left: 50px;
+  font-size: 25px;
+}
+
+h2 {
+  text-align: center;
+  font-size: 3em;
+}
+
+p {
+  font-size: 30px; 
+  text-align: center;
+  font: 800;
+}
+
+h4 {
+  font-size: 25px;
+  margin-left: 10px;
+}
+

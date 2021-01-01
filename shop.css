@@ -1,0 +1,313 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@400;500;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Dosis', sans-serif;
+}
+
+.menudropdown {
+     width: 79%;
+     height: 100px;
+     margin: 0px auto; 
+    cursor: pointer;
+  } 
+  
+  a {
+    font-size: 22px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+  }
+  
+  .menudropdown {
+    position: fixed;  
+    margin-left: 100px;
+    margin-top: -6px;
+  }
+  
+  .menudropdown ul {
+   padding: 0px;
+  }
+  
+  .menudropdown ul li {
+    float: right;
+    background-color: black;
+    color: white;
+    width: 200px;
+    height: 50px;
+    font-size: 21px;
+    text-align: center;
+    line-height: 50px;
+    list-style: none;
+  }
+  
+  .menudropdown ul li ul {
+    display: none;
+  }
+  
+  .menudropdown ul li:hover {
+    background-color: dodgerblue;
+    opacity: 0.9;
+    cursor: pointer;
+  }
+  
+  .menudropdown ul li:hover>ul {
+    display: block;
+  }
+  
+    #scroll {
+      margin-top: -60px;
+      width: 300px;
+      position: relative;
+      animation: mymove 3s infinite;
+      animation-play-state: running;
+  }
+  
+
+.books {
+    max-width: 220px;
+}
+
+#book {
+    max-width: 300px;
+    margin-top: 20px;
+}
+
+.bottles {
+    max-width: 260px;
+    margin-top: 50px;
+}
+
+#towels {
+    max-width: 220px;
+}
+
+.footwear {
+    max-width: 220px;
+}
+
+.pens {
+    max-width: 200px;
+    margin-top: 20px;
+}
+
+.pot {
+    max-width: 190px;
+    margin-top: 25px;
+}
+
+#brelli {
+    max-width: 320px;
+    margin-top: 10px;
+}
+
+.food-bags {
+    max-width: 350px;
+    margin-top: 75px;
+}
+
+.bin {
+    max-width: 350px;
+    margin-top: 75px;
+}
+
+.decking {
+    max-width: 400px;
+    margin-top: 120px;
+}
+
+.foil {
+    max-width: 200px;
+    margin-top: 60px;
+}
+
+#bowls {
+    max-width: 200px;
+    margin-top: 80px;
+}
+
+.shopping-bag {
+    max-width: 150px;
+    margin-top: 50px;
+}
+
+.torch {
+    max-width: 150px;
+    margin-top: 35px;
+}
+
+.baby-food {
+    max-width: 200px;
+    margin-top: 5px;
+}
+
+.flex {
+    display: flex;
+}
+
+.section-container {
+    flex-direction: column;
+    padding: 5%;
+}
+
+.space-between {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.space-evenly {
+    justify-content: space-evenly;
+}
+
+nav {
+    height: 50px;
+    width: 100%;
+}
+
+nav div {
+    padding: 0% 5%;
+}
+
+nav img {
+    height: 30px;
+}
+
+#cart {
+    font-weight: bold;
+    display: flex;
+    float: right;
+    flex-direction: row;
+    margin-left: 1230px;
+}
+
+header {
+    height: 500px;
+    width: 100%;
+    background-image: linear-gradient(mediumslateblue, mediumpurple);
+    background-size: 100% 100%;
+    color: black;
+}
+
+.header-text {
+    flex-direction: column;
+    max-height: 100%;
+    max-width: 20%;
+    padding: 4% 5%;
+}
+
+header h1 {
+    font-size: 7vh;
+    background-image: linear-gradient(lavender, white);
+    color: transparent;
+    -webkit-background-clip: text;
+}
+
+header h5 {
+    font-size: 23px;
+    margin-top: 20px;
+    background-image: linear-gradient(lavender, white);
+    color: transparent;
+    -webkit-background-clip: text;
+}
+
+.section {
+    margin: 4% 0%;
+}
+
+.button {
+    cursor: pointer;
+    background-color: mediumpurple;
+    color: white;
+    padding: 5px;
+    border-radius: 4px;
+}
+
+.buy img {
+    width: 30px;
+    padding-left: 5px;
+}
+
+.buy {
+    margin-top: 15px;
+    padding-bottom: 50px;
+}
+
+footer {
+    height: 300px;
+    background-image: url("http://i1.faceprep.in/prograd-junior/footer-bg.png");
+    background-size: 100% 100%;
+    color: white;
+    padding: 0% 5%;
+}
+
+footer img {
+    height: 160px;
+    width: 160px;
+    border-radius: 50%;
+}
+
+#details {
+    flex-direction: column;
+    text-align: right;
+}
+
+h1,
+h2 {
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+}
+
+h4 {
+    color: grey;
+    font-weight: lighter;
+}
+
+h6 {
+    font-size: 17px;
+}
+
+.buy p {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+h3,
+h2 {
+    margin-bottom: 10px;
+}
+
+.container {
+    flex-wrap: wrap;
+}
+
+@media only screen and (max-width:600px) {
+    header {
+        height: 200px;
+        font-size: 15px;
+        text-align: start;
+    }
+
+    header img {
+        font: 4vh;
+    }
+
+    header h5 {
+        font-size: 15px;
+    }
+
+    .header-text {
+        padding: 0% 60% 5% 5%;
+    }
+
+    body {
+        text-align: center;
+    }
+
+    .container {
+        justify-content: center;
+    }
+}

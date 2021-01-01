@@ -1,0 +1,178 @@
+#score-box , #timer-box{
+  font-size: 3em;
+  padding: 20px;
+  z-index: 1;
+}
+#game-over{
+ display: none;
+}
+#final-score{
+ font-size: 3em;
+}
+.bubble{
+ position: absolute;
+ bottom: -100px;
+ border-radius: 50%;
+ animation: flying 5s infinite ease-in;
+ background-color: mediumvioletred ;
+ width: 100px;
+ height: 100px;
+ z-index: 2;
+}
+
+#paper {
+  position: absolute;
+  bottom: -100px;
+  border-radius: 50%;
+  animation: flying 5s infinite ease-in;
+  background-color: darkorange;
+  width: 150px;
+  height: 150px;
+  z-index: 2;
+ }
+
+ #paper p {
+   text-align: center;
+   margin-top: 50px;
+   font-size: 35px;
+ }
+
+ #bamboo {
+  position: absolute;
+  bottom: -70px;
+  border-radius: 50%;
+  animation: flying 5s infinite ease-in;
+  background-color: darkorange;
+  width: 150px;
+  height: 150px;
+  z-index: 2;
+  margin-left: 1200px;
+ }
+
+ #bamboo p {
+   text-align: center;
+   margin-top: 50px;
+   font-size: 35px;
+ }
+
+ #jute {
+  position: absolute;
+  bottom: -70px;
+  border-radius: 50%;
+  animation: flying 5s infinite ease-in;
+  background-color: darkorange;
+  width: 150px;
+  height: 150px;
+  z-index: 2;
+  margin-left: 800px;
+ }
+
+ #jute p {
+   text-align: center;
+   margin-top: 50px;
+   font-size: 35px;
+ }
+
+ #cotten {
+  position: absolute;
+  bottom: -70px;
+  border-radius: 50%;
+  animation: flying 5s infinite ease-in;
+  background-color: darkorange;
+  width: 150px;
+  height: 150px;
+  z-index: 2;
+  margin-left: 420px;
+ }
+
+ #cotten p {
+   text-align: center;
+   margin-top: 50px;
+   font-size: 35px;
+ }
+
+ #animalwaste {
+  position: absolute;
+  bottom: -0px;
+  border-radius: 50%;
+  animation: flying 5s infinite ease-in; 
+  background-color: darkorange;
+  width: 150px;
+  height: 150px;
+  z-index: 2;
+  margin-left: 690px;
+ }
+
+ #animalwaste p {
+   text-align: center;
+   margin-top: 30px;
+   font-size: 35px;
+ }
+
+ #kitchenwaste {
+  position: absolute;
+  bottom: -0px;
+  border-radius: 50%;
+  animation: flying 5s infinite ease-in; 
+  background-color: darkorange;
+  width: 150px;
+  height: 150px;
+  z-index: 2;
+  margin-left: 130px;
+ }
+
+ #kitchenwaste p {
+   text-align: center;
+   margin-top: 30px;
+   font-size: 35px;
+ }
+
+ #plantwaste {
+  position: absolute;
+  bottom: -0px;
+  border-radius: 50%;
+  animation: flying 5s infinite ease-in; 
+  background-color: darkorange;
+  width: 150px;
+  height: 150px;
+  z-index: 2;
+  margin-left: 1000px;
+ }
+
+ #plantwaste p {
+   text-align: center;
+   margin-top: 30px;
+   font-size: 35px;
+ }
+
+ #recycledmetal {
+  position: absolute;
+  bottom: -0px;
+  border-radius: 50%;
+  animation: flying 5s infinite ease-in; 
+  background-color: darkorange;
+  width: 150px;
+  height: 150px;
+  z-index: 2;
+  margin-left: 1000px;
+ }
+
+ #recycledmetal p {
+   text-align: center;
+   margin-top: 30px;
+   font-size: 35px;
+ }
+
+@keyframes flying{
+0%{
+ bottom: -100;
+ transform: translateX(0);
+}
+50%{
+ transform: translateX(100px);
+}
+100%{
+ bottom: 1080px;
+transform: translateX(-200px);
+}
+} 
